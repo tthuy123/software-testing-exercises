@@ -2,7 +2,7 @@ import csv
 import pytest
 from main import calculate_price
 
-def load_test_cases(csv_file="test_cases.csv"):
+def load_test_cases(csv_file="w3_test_cases.csv"):
     cases = []
     with open(csv_file, newline='', encoding="utf-8") as f:
         reader = csv.DictReader(f)
